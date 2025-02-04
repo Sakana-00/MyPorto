@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+    --primary-color: #3685fb;
+    --primary-color-dark: #2f73d9;
+    --secondary-color: #E5E5E5;
+    --text-dark: #0d213f;
+    --text-light: #767268;
+    --extra-light: #ffffff;
+    --max-width: 1200px;
+}
+
+/* navbar */
+
+nav {
+    padding: 1.5rem 1rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.navlink {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navlink a {
+    margin-right: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: 0.3;
+}
+
+.navlink a:hover {
+    color: var(--primary-color-dark);
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.container {
+    /* background-color: #767268; */
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 4.5rem 1rem;
+}
+
+/* container page 1 */
+
+.image-container { /* image*/
+    position: relative;
+    display: inline-block;
+}
+.conjiken {
+    margin: 5rem 4rem;
+    max-width: 1000px;
+    min-width: 300px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.gambar_one {
+    display: block;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+}
+
+.gambar_two {
+    position: absolute;
+    bottom: -20%;
+    right: -45%;
+    width: 300px;
+    height: auto;
+}
+
+.subcon-one { /* side image */
+    display: flex;
+
+}
+
+.home {
+    margin-left: 10rem ;
+    margin-top: 10rem;
+}
+
+.sub_header {
+    font-family: "Poppins", Arial;
+    color: rgb(56, 66, 209);
+    margin-left: 11px;
+}
+
+.side-mid {
+    font-family: "Poppins", Arial;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.section_sub {
+    font-family: "Poppins", Arial;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.My_achivement {
+    margin-top: 10px;
+    float: right;
+}
+.two{
+    border-radius:30px;
+}
+
