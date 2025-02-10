@@ -20,7 +20,9 @@
 
 nav {
     padding: 1.5rem 1rem;
-    position: absolute;
+    position: fixed;
+    z-index: 999;
+    background-color: var(--extra-light);
     top: 0;
     left: 50%;
     transform: translate(-50%);
@@ -147,3 +149,36 @@ nav {
     border-radius:30px;
 }
 
+/* container page2 */
+
+.gallery {
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    font-family: "Poppins", Arial;
+}
+
+.gallery h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: auto;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+
+}
